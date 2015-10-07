@@ -1,0 +1,28 @@
+
+1- CustomConsultingCompany 
+:members:
+private String clientRequest
+private Vector<String> Programmer
+
+:methods:
+		String []  getRequest()
+		void  addProgrammerName(String Programmer)
+		boolean  hasClientRequest(String clientRequest)
+
+2- Client
+:members:
+private String nameProfessional
+private Vector<String> requestedQualification 
+
+:methods:
+		void  hasRequestedQualification()
+		String  nameQualifiedProfessional()
+3- Professional 
+:members:
+private String getName
+private Vector<String> qualifications
+
+:methods:
+		String []  getQualifications()
+		void  addQualificiation(String qualifications)
+		boolean  hasQualification(String qualifications)
